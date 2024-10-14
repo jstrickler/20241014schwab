@@ -1,6 +1,16 @@
-file_path = "Projects/alpha/src/utils/pdfstuff.py"
+# use this;
+file_path = "c:/Projects/alpha/src/utils/pdfstuff.py"
+# not this:
+file_path = r"c:\Projects\alpha\src\new\tau\utils\pdfstuff.py"
+
+
+
 
 print(f"{file_path = }")
+print(f"{file_path.find('/') = }")
+print(f"{file_path.rfind('/') = }")
+
+
 print(f"{len(file_path) = }")
 
 print(f"{file_path.upper() = }")
@@ -15,8 +25,8 @@ print(f"{'beta' in file_path = }")
 print(f"{file_path.find('alpha') = }")
 print(f"{file_path.find('beta') = }")
 print(f"{file_path.replace('alpha', 'beta') = }")
-print(f"{file_path.split('/') = }")
 parts = file_path.split('/')
+print(f"{parts = }")
 print(f"{':'.join(parts) = }")
 print()
 
