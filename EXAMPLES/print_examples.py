@@ -10,8 +10,8 @@ print(city, end=' ')  # Print space instead of newline at the end
 print(temperature)
 print()
 
-# Item separator is comma + space
-print(city, temperature, hit_count, average, sep=",")
+# Item separator is comma space
+print(city, temperature, hit_count, average, sep=", ")
 print()
 
 # Item separator is empty string
