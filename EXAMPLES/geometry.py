@@ -49,3 +49,6 @@ if __name__ == "__main__":
     
     area3 = rectangle_area(9, 13)
     print(f"area3: {area3}")
+
+    print(f"{circle_area(42.9) = }")
+    
